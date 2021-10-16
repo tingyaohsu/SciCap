@@ -7,24 +7,24 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ## Folder Structure
 ```
 ├── SciCap-Caption-All.zip (caption JSON files for BOTH sub(280k) + non-sub(130k) images)                       	
-│   ├── SciCap-Caption-All-train.json                                        # test set, containing 1,000 abstracts
-│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]                                  # expert labels folder
-│   ├── SciCap-Caption-All-val.json                   # expert labels from Bio expert
-│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]             # expert labels from CS expert
-│   └── SciCap-Caption-All-test.json           		# crowd labels evaluated against Bio expert's labels
-│       └── [{figure-1}, {figure-2}, …, {figure-n}]    # crowd labels evaluated against CS expert's labels                                        
+│   ├── SciCap-Caption-All-train.json                                       
+│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]                                 
+│   ├── SciCap-Caption-All-val.json                   
+│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]             
+│   └── SciCap-Caption-All-test.json           		
+│       └── [{figure-1}, {figure-2}, …, {figure-n}]                                           
 │
-├── SciCap-No-Subfig-Img                         	# human labels folder
-│   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                   # test set, containing 1,000 abstracts
+├── SciCap-No-Subfig-Img                         	
+│   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                   
 │   │                                   
-│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                   # expert labels from Bio expert
+│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                   
 │   │            
-│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		# crowd labels evaluated against Bio 
+│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		 
 │                                      
 ├── SciCap-Yes-Subfig-Img                         	
-│   ├── SciCap-Yes-Subfig-Img-Train.zip (image files)                                   # test set, containing 1,000 abstracts
+│   ├── SciCap-Yes-Subfig-Img-Train.zip (image files)                                   
 │   │                                    # expert labels folder
-│   ├── SciCap-Yes-Subfig-Img-Val.zip (image files)                   # expert labels from Bio expert
+│   ├── SciCap-Yes-Subfig-Img-Val.zip (image files)                   
 │   │            
 │   └── SciCap-Yes-Subfig-Img-Test.zip (image files)           		
 │
