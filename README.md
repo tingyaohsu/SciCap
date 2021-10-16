@@ -9,23 +9,17 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ├── SciCap-Caption-All.zip (caption JSON files for BOTH sub(280k) + non-sub(130k) images)                       	
 │   ├── SciCap-Caption-All-train.json                                       
 │   │   └── [{figure-1}, {figure-2}, …, {figure-n}]                                 
-│   ├── SciCap-Caption-All-val.json                   
-│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]             
-│   └── SciCap-Caption-All-test.json           		
-│       └── [{figure-1}, {figure-2}, …, {figure-n}]                                           
+│   ├── SciCap-Caption-All-val.json                                
+│   └── SciCap-Caption-All-test.json           	                                          
 │
 ├── SciCap-No-Subfig-Img                         	
-│   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                   
-│   │                                   
-│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                   
-│   │            
+│   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                                                      
+│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                               
 │   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		 
 │                                      
 ├── SciCap-Yes-Subfig-Img                         	
-│   ├── SciCap-Yes-Subfig-Img-Train.zip (image files)                                   
-│   │                                    # expert labels folder
-│   ├── SciCap-Yes-Subfig-Img-Val.zip (image files)                   
-│   │            
+│   ├── SciCap-Yes-Subfig-Img-Train.zip (image files)                                                                      
+│   ├── SciCap-Yes-Subfig-Img-Val.zip (image files)                               
 │   └── SciCap-Yes-Subfig-Img-Test.zip (image files)           		
 │
 ├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
