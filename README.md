@@ -33,7 +33,7 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 	  "impact of the replay attack , as a function of the spoofing attack duration .",
 	  "( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
 	  "( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
-	], (sentenize)
+	  ], (sentenize)
 	"token": [
       "impact",
       "of",
