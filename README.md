@@ -100,3 +100,9 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
    ],
 }
 ```
+## How to Cite?
+```
+```
+
+## Acknowledgements
+We thank Chieh-Yang Huang, Hua Shen, and Chacha Chen for helping with the data annota- tion. We thank Chieh-Yang Huang for the feedback and strong technical support. We also thank the anonymous reviewers for their constructive feed- back. This research was partially supported by the Seed Grant (2020) from the College of Information Sciences and Technology (IST), Pennsylvania State University.
