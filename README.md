@@ -25,23 +25,23 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
   "contains-subfigure": boolean (check if contain subfigure),
   "paper-ID": the unique paper ID in arXiv dataset,
   "figure-ID": the extracted figure ID of paper (the index is not same as the label in caption),
-	  "figure-type": the figure type,
-	  "0-originally-extracted": "Figure 2: Impact of the replay attack, as a function of the spoofing attack duration. (a) Location offset or error: Distance between the attack-induced and the actual victim receiver position. (b) Time offset or error: Time difference between the attack-induced clock value and the actual time.", (original caption)
+  "figure-type": the figure type,
+  "0-originally-extracted": "Figure 2: Impact of the replay attack, as a function of the spoofing attack duration. (a) Location offset or error: Distance between the attack-induced and the actual victim receiver position. (b) Time offset or error: Time difference between the attack-induced clock value and the actual time.", (original caption)
   "1-lowercase-and-token-and-remove-figure-index": {
-	  "caption": "impact of the replay attack , as a function of the spoofing attack duration . ( a ) location offset or error : distance between the attack-induced and the actual victim receiver position . ( b ) time offset or error : time difference between the attack-induced clock value and the actual time .", (lowcase & index remove normalization)
-	  "sentence": [
-		"impact of the replay attack , as a function of the spoofing attack duration .",
-		"( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
-		"( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
-	  ], (sentenize)
-  	  "token": [
-        "impact",
-    	"of",
-      	"the",
-      	"replay",
-      	"attack",
-      	...,
-      ] (tokenize)
+	"caption": "impact of the replay attack , as a function of the spoofing attack duration . ( a ) location offset or error : distance between the attack-induced and the actual victim receiver position . ( b ) time offset or error : time difference between the attack-induced clock value and the actual time .", (lowcase & index remove normalization)
+	"sentence": [
+	  "impact of the replay attack , as a function of the spoofing attack duration .",
+	  "( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
+	  "( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
+	], (sentenize)
+  	"token": [
+      "impact",
+      "of",
+      "the",
+      "replay",
+      "attack",
+      ...,
+    ] (tokenize)
   },
   "2-normalized": {
 	"2-1-basic-num": {
