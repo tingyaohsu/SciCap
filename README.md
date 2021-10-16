@@ -6,17 +6,21 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 ## Folder Structure
 ```
-├── human_label                                     # human labels folder
-│   ├── test                                        # test set, containing 1,000 abstracts
-│   │   └── expert                                  # expert labels folder
-│   │       ├── biomedical_expert                   # expert labels from Bio expert
-│   │       ├── computer_science_expert             # expert labels from CS expert
-│   │       ├── biomedical_expert-eval.csv          # crowd labels evaluated against Bio expert's labels
-│   │       └── computer_science_expert-eval.csv    # crowd labels evaluated against CS expert's labels
-│   ├── dev                                         # dev set, containing 1,000 abstracts
-│   ├── train                                       # training set, containing 8,965 abstracts
-│   └── coda_metadata.csv                           # metadata for CODA-19
-└── machine_label                                   # empty folder (desgined for future automatic labels)
+├── SciCap-Caption-All.zip (caption JSON files for BOTH sub(280k) + non-sub(130k) images)                       	
+│   ├── SciCap-Caption-All-train.json                                        # test set, containing 1,000 abstracts
+│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]                                  # expert labels folder
+│   ├── SciCap-Caption-All-val.json                   # expert labels from Bio expert
+│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]             # expert labels from CS expert
+│   └── SciCap-Caption-All-test.json           		# crowd labels evaluated against Bio expert's labels
+│       └── [{figure-1}, {figure-2}, …, {figure-n}]    # crowd labels evaluated against CS expert's labels                                        
+│
+├── SciCap-No-Subfig-Img                         	# human labels folder
+│   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                   # test set, containing 1,000 abstracts
+│   │                                    # expert labels folder
+│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                   # expert labels from Bio expert
+│   │            # expert labels from CS expert
+│   ├── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		# crowd labels evaluated against Bio 
+│   │                                    # empty folder (desgined for future 
 ```
 
 ## JSON Format Structure
