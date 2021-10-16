@@ -34,7 +34,7 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 	  "( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
 	  "( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
 	], (sentenize)
-  "token": [
+   "token": [
       "impact",
       "of",
       "the",
