@@ -77,15 +77,15 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
       ] (tokenize)
     }
   }
-"Img-text": [
-	"(b)",
-	"s]",
-	"[m",
-	"fs",
-	"et",
-	"e",
-	"of",
-	...,
- ],
+  "Img-text": [
+    "(b)",
+    "s]",
+    "[m",
+    "fs",
+    "et",
+    "e",
+    "of",
+    ...,
+   ],
 }
 ```
