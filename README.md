@@ -29,12 +29,12 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
   "0-originally-extracted": "Figure 2: Impact of the replay attack, as a function of the spoofing attack duration. (a) Location offset or error: Distance between the attack-induced and the actual victim receiver position. (b) Time offset or error: Time difference between the attack-induced clock value and the actual time.", (original caption)
   "1-lowercase-and-token-and-remove-figure-index": {
     "caption": "impact of the replay attack , as a function of the spoofing attack duration . ( a ) location offset or error : distance between the attack-induced and the actual victim receiver position . ( b ) time offset or error : time difference between the attack-induced clock value and the actual time .", (lowcase & index remove normalization)
-	"sentence": [
+    "sentence": [
 	  "impact of the replay attack , as a function of the spoofing attack duration .",
 	  "( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
 	  "( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
 	], (sentenize)
-  	"token": [
+	"token": [
       "impact",
       "of",
       "the",
