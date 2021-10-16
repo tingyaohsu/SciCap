@@ -12,18 +12,16 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 │   ├── SciCap-Caption-All-val.json                                
 │   └── SciCap-Caption-All-test.json           	                                          
 │
-├── SciCap-No-Subfig-Img                         	
-│   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                                                      
-│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                               
-│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		 
+├── SciCap-No-Subfig-Img (image files)                    	
+│   ├── SciCap-No-Subfig-Img-Train.zip                                                                       
+│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip                               
+│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip           		 
 │                                      
-├── SciCap-Yes-Subfig-Img                         	
-│   ├── SciCap-Yes-Subfig-Img-Train.zip (image files)                                                                      
-│   ├── SciCap-Yes-Subfig-Img-Val.zip (image files)                               
-│   └── SciCap-Yes-Subfig-Img-Test.zip (image files)           		
-│
+├── SciCap-Yes-Subfig-Img (image files)                       	
+│   ├── SciCap-Yes-Subfig-Img-Train.zip                                                                       
+│   ├── SciCap-Yes-Subfig-Img-Val.zip                       
+│   └── SciCap-Yes-Subfig-Img-Test.zip            		
 ├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
-│
 └── List-of-Files-for-Each-Experiments (json)
     ├── Single-Sentence-Caption-file-index.json
     │	├── Train
