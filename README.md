@@ -33,8 +33,8 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 	  "impact of the replay attack , as a function of the spoofing attack duration .",
 	  "( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
 	  "( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
-	], (sentenize)
-   "token": [
+    ], (sentenize)
+    "token": [
       "impact",
       "of",
       "the",
@@ -44,40 +44,40 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
     ] (tokenize)
   },
   "2-normalized": {
-	"2-1-basic-num": {
-	  "caption": "impact of the replay attack , as a function of the spoofing attack duration . ( a ) location offset or error : distance between the attack-induced and the actual victim receiver position . ( b ) time offset or error : time difference between the attack-induced clock value and the actual time .", (number normalization)
-	  "sentence": [
-    	"impact of the replay attack , as a function of the spoofing attack duration .",
-    	"( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
-    	"( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
-  	  ], (sentenize)
-  	  "token": [
-  		"impact",
-  		"of",
-  		"the",
-  		"replay",
-  		"attack",
-  		...,
-  	  ] (tokenize)
-  },
+    "2-1-basic-num": {
+      "caption": "impact of the replay attack , as a function of the spoofing attack duration . ( a ) location offset or error : distance between the attack-induced and the actual victim receiver position . ( b ) time offset or error : time difference between the attack-induced clock value and the actual time .", (number normalization)
+      "sentence": [
+        "impact of the replay attack , as a function of the spoofing attack duration .",
+	"( a ) location offset or error : distance between the attack-induced and the actual victim receiver position .",
+	"( b ) time offset or error : time difference between the attack-induced clock value and the actual time ."
+  	], (sentenize)
+      "token": [
+	"impact",
+	"of",
+	"the",
+	"replay",
+	"attack",
+	...,
+      ] (tokenize)
+    },
     "2-2-advanced-euqation-bracket": {
-	  "caption": "impact of the replay attack , as a function of the spoofing attack duration . BRACKET-TK location offset or error : distance between the attack-induced and the actual victim receiver position . BRACKET-TK time offset or error : time difference between the attack-induced clock value and the actual time .", (euqation & bracket normalization)
-  	  "sentence": [
+      "caption": "impact of the replay attack , as a function of the spoofing attack duration . BRACKET-TK location offset or error : distance between the attack-induced and the actual victim receiver position . BRACKET-TK time offset or error : time difference between the attack-induced clock value and the actual time .", (euqation & bracket normalization)
+      "sentence": [
     	"impact of the replay attack , as a function of the spoofing attack duration .",
     	"BRACKET-TK location offset or error : distance between the attack-induced and the actual victim receiver position .",
     	"BRACKET-TK time offset or error : time difference between the attack-induced clock value and the actual time ."
-  	  ], (sentenize)
-  	  "token": [
-  		"impact",
-  		"of",
-  		"the",
-  		"replay",
-  		"attack",
-  		...,
-  	  ] (tokenize)
+      ], (sentenize)
+      "token": [
+	"impact",
+	"of",
+	"the",
+	"replay",
+	"attack",
+	...,
+      ] (tokenize)
     }
   }
-  "Img-text": [
+"Img-text": [
 	"(b)",
 	"s]",
 	"[m",
