@@ -16,11 +16,21 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 │
 ├── SciCap-No-Subfig-Img                         	# human labels folder
 │   ├── SciCap-No-Subfig-Img-Train.zip (image files)                                   # test set, containing 1,000 abstracts
-│   │                                    # expert labels folder
+│   │                                   
 │   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip (image files)                   # expert labels from Bio expert
-│   │            # expert labels from CS expert
-│   ├── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		# crowd labels evaluated against Bio 
-│   │                                    # empty folder (desgined for future 
+│   │            
+│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip (image files)           		# crowd labels evaluated against Bio 
+│                                      
+├── SciCap-Yes-Subfig-Img                         	
+│   ├── SciCap-Yes-Subfig-Img-Train.zip (image files)                                   # test set, containing 1,000 abstracts
+│   │                                    # expert labels folder
+│   ├── SciCap-Yes-Subfig-Img-Val.zip (image files)                   # expert labels from Bio expert
+│   │            
+│   └── SciCap-Yes-Subfig-Img-Test.zip (image files)           		
+│
+├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
+│
+└── List-of-Files-for-Each-Experiments (json)
 ```
 
 ## JSON Format Structure
