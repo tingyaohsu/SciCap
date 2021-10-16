@@ -31,6 +31,13 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
 │
 └── List-of-Files-for-Each-Experiments (json)
+    ├── Single-Sentence-Caption-file-index.json
+    │	├── Train
+    │   │    └── [train-file-1], [train-file-2]...
+    │   ├── Val
+    │   └── Test
+    ├── First-Sentence-file-index.json
+    └── Caption-No-More-Than-100-Tokens-file-index.json
 ```
 
 ## JSON Format Structure
