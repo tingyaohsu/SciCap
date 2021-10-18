@@ -34,6 +34,13 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 
 ## JSON Format Structure
+
+- 0-originally-extracted:
+- 1-lowercase-and-token-and-remove-figure-index: 
+- 2-normalized: 
+  - 2-1-basic-num:
+  - 2-2-advanced-euqation-bracket: 
+
 ```
 {
   "contains-subfigure": boolean (check if contain subfigure),
@@ -105,16 +112,16 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ```
 
 ## Normalized Token
-- *BRACKET-TK* - XXX
-- *NUM-TK* - XXX
-- *EQUAT-TK* - XXXX
+- BRACKET-TK: XXX
+- NUM-TK: XXX
+- EQUAT-TK: XXXX
 
 ## How to Cite?
 ```
 ```
 
 ## Baseline Performance
-
+TABLE
 
 ## Acknowledgements
 We thank Chieh-Yang Huang, Hua Shen, and Chacha Chen for helping with the data annotation. We thank Chieh-Yang Huang for the feedback and strong technical support. We also thank the anonymous reviewers for their constructive feedback. This research was partially supported by the Seed Grant (2020) from the College of Information Sciences and Technology (IST), Pennsylvania State University.
