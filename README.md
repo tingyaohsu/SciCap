@@ -22,10 +22,14 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
 └── List-of-Files-for-Each-Experiments (json)
     ├── Single-Sentence-Caption-file-index.json
-    │	├── Train
-    │   │    └── [train-file-1], [train-file-2]...
-    │   ├── Val
-    │   └── Test
+    │	├── No-Subfig
+    │   │	├── Train
+    │	│ 	├── Val
+    │	│   	└── Test
+    │   └── Yes-Subfig
+    │   	├── Train
+    │	 	├── Val
+    │	   	└── Test
     ├── First-Sentence-file-index.json
     └── Caption-No-More-Than-100-Tokens-file-index.json
 ```
@@ -33,13 +37,30 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 - List-of-Files-for-Each-Experiments: 
 
 
-## JSON Format Structure
+## JSON Data Format
 
+### JSON Scheme
+
+- contains-subfigure: boolean (check if contain subfigure)
+- paper-ID: the unique paper ID in arXiv dataset
+- figure-ID: the extracted figure ID of paper (the index is not same as the label in caption)
+- figure-type: the figure type
 - 0-originally-extracted:
 - 1-lowercase-and-token-and-remove-figure-index: 
 - 2-normalized: 
   - 2-1-basic-num:
   - 2-2-advanced-euqation-bracket: 
+- Img-text:
+
+Within the caption content, we have three attributes:
+
+- caption:
+- sentence:
+- token:
+
+### Example JSON Object
+
+An actual JSON object from SciCap:
 
 ```
 {
@@ -121,7 +142,7 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ```
 
 ## Baseline Performance
-TABLE
+SCREENSHOT
 
 ## Acknowledgements
 We thank Chieh-Yang Huang, Hua Shen, and Chacha Chen for helping with the data annotation. We thank Chieh-Yang Huang for the feedback and strong technical support. We also thank the anonymous reviewers for their constructive feedback. This research was partially supported by the Seed Grant (2020) from the College of Information Sciences and Technology (IST), Pennsylvania State University.
