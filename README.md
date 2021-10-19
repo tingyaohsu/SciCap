@@ -45,8 +45,8 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 - paper-ID: the unique paper ID in arXiv dataset
 - figure-ID: the extracted figure ID of paper (the index is not same as the label in caption)
 - figure-type: the figure type
-- 0-originally-extracted:
-- 1-lowercase-and-token-and-remove-figure-index: 
+- 0-originally-extracted: original captions of figures
+- 1-lowercase-and-token-and-remove-figure-index: Removed figure index and lowercase in the captions   
 - 2-normalized: 
   - 2-1-basic-num:
   - 2-2-advanced-euqation-bracket: 
