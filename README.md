@@ -46,17 +46,17 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 - figure-ID: the extracted figure ID of paper (the index is not same as the label in caption)
 - figure-type: the figure type
 - 0-originally-extracted: original captions of figures
-- 1-lowercase-and-token-and-remove-figure-index: Removed figure index and lowercase in the captions   
+- 1-lowercase-and-token-and-remove-figure-index: Removed figure index and lowercase the captions   
 - 2-normalized: 
-  - 2-1-basic-num:
-  - 2-2-advanced-euqation-bracket: 
-- Img-text:
+  - 2-1-basic-num: replace the number
+  - 2-2-advanced-euqation-bracket: replace the equations and contents in the bracket
+- Img-text: texts in the figure, including labels, lengends ... etc.
 
 Within the caption content, we have three attributes:
 
-- caption:
-- sentence:
-- token:
+- caption: caption after normalization
+- sentence: sentence tokenize
+- token: word tokenize
 
 ### Example JSON Object
 
@@ -133,9 +133,9 @@ An actual JSON object from SciCap:
 ```
 
 ## Normalized Token
-- BRACKET-TK: XXX
-- NUM-TK: XXX
-- EQUAT-TK: XXXX
+- BRACKET-TK: Used regular expressions to identify equations in captions and replaced them with [EQUATION]. 
+- NUM-TK: Replaced all the numbers (e.g., 0, -0.2, 3.44%, 1,000,000) with [NUM].
+- EQUAT-TK:  Replaced all the text spans enclosed by any types of bracket pairs, including {}, [], and (), with [BRACKET].
 
 ## How to Cite?
 ```
