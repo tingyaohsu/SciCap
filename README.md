@@ -41,22 +41,22 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 ### JSON Scheme
 
-- contains-subfigure: boolean (check if contain subfigure)
-- paper-ID: the unique paper ID in arXiv dataset
-- figure-ID: the extracted figure ID of paper (the index is not same as the label in caption)
-- figure-type: the figure type
-- 0-originally-extracted: original captions of figures
-- 1-lowercase-and-token-and-remove-figure-index: Removed figure index and lowercase the captions   
-- 2-normalized: 
-  - 2-1-basic-num: caption after replace the number
-  - 2-2-advanced-euqation-bracket: caption after replace the equations and contents in the bracket
-- Img-text: texts in the figure, including labels, lengends ... etc.
+- **contains-subfigure:** boolean (check if contain subfigure)
+- **paper-ID:** the unique paper ID in arXiv dataset
+- **figure-ID:** the extracted figure ID of paper (the index is not same as the label in caption)
+- **figure-type:** the figure type
+- **0-originally-extracted:** original captions of figures
+- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and lowercase the captions   
+- **2-normalized:** 
+  - **2-1-basic-num:** caption after replace the number
+  - **2-2-advanced-euqation-bracket:** caption after replace the equations and contents in the bracket
+- **Img-text:** texts in the figure, including labels, lengends ... etc.
 
 Within the caption content, we have three attributes:
 
-- caption: caption after each normalization
-- sentence: sentence tokenize
-- token: word tokenize
+- **caption:** caption after each normalization
+- **sentence:** sentence tokenize
+- **token:** word tokenize
 
 ### Example JSON Object
 
@@ -133,7 +133,7 @@ An actual JSON object from SciCap:
 ```
 
 ## Normalized Token
-In the paper, we used *[NUM], [BRACKET], [EQUATION]*, but we decied to use *NUM-TK, BRACKET-TK, EQUAT-TK* in the fianl release to avoid the extra problems caused by "[]".
+In the paper, we used *[NUM], [BRACKET], [EQUATION]*, but we decided to use *NUM-TK, BRACKET-TK, EQUAT-TK* in the final data release to avoid the extra problems caused by "[]".
 
 | Token  | Description |
 | ------------- | ------------- |
