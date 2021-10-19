@@ -133,6 +133,12 @@ An actual JSON object from SciCap:
 ```
 
 ## Normalized Token
+| Token  | Description |
+| ------------- | ------------- |
+| NUM-TK  | Numbers (e.g., 0, -0.2, 3.44%, 1,000,000). |
+| BRACKET-TK  | Text spans enclosed by any types of bracket pairs, including {}, [], and ().  |
+| EQUAT-TK  | Math equations identified using regular expressions. |
+
 - BRACKET-TK: Used regular expressions to identify equations in captions and replaced them with [EQUATION]. 
 - NUM-TK: Replaced all the numbers (e.g., 0, -0.2, 3.44%, 1,000,000) with [NUM].
 - EQUAT-TK:  Replaced all the text spans enclosed by any types of bracket pairs, including {}, [], and (), with [BRACKET].
