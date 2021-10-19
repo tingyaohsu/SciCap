@@ -148,6 +148,6 @@ To examine the feasibility and challenges of creating an image-captioning model 
 <img align="left" src="https://github.com/tingyaohsu/SciCap/blob/main/img/table_with_img%2Btxt.png" width="40%">
 
 
-
+<br><br><br><br>
 ## Acknowledgements
 We thank Chieh-Yang Huang, Hua Shen, and Chacha Chen for helping with the data annotation. We thank Chieh-Yang Huang for the feedback and strong technical support. We also thank the anonymous reviewers for their constructive feedback. This research was partially supported by the Seed Grant (2020) from the College of Information Sciences and Technology (IST), Pennsylvania State University.
