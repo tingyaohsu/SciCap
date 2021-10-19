@@ -142,7 +142,15 @@ An actual JSON object from SciCap:
 ```
 
 ## Baseline Performance
+
+<p align="left">
 To examine the feasibility and challenges of creating an image-captioning model for scientific figures, we established several baselines and tested them using SCICAP. The caption quality was measured by BLEU-4, using the test set of the corresponding data collection as a reference. We trained the models on each data collection with varying levels of data filtering and text normalization. Table 2 shows the results.
+</p>
+
+
+<p align="right">
+  <img src="https://github.com/tingyaohsu/SciCap/blob/main/img/table_with_datasize.png" width="30%">
+</p>
 
 ## Acknowledgements
 We thank Chieh-Yang Huang, Hua Shen, and Chacha Chen for helping with the data annotation. We thank Chieh-Yang Huang for the feedback and strong technical support. We also thank the anonymous reviewers for their constructive feedback. This research was partially supported by the Seed Grant (2020) from the College of Information Sciences and Technology (IST), Pennsylvania State University.
