@@ -48,8 +48,8 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 - 0-originally-extracted: original captions of figures
 - 1-lowercase-and-token-and-remove-figure-index: Removed figure index and lowercase the captions   
 - 2-normalized: 
-  - 2-1-basic-num: replace the number
-  - 2-2-advanced-euqation-bracket: replace the equations and contents in the bracket
+  - 2-1-basic-num: caption after replace the number
+  - 2-2-advanced-euqation-bracket: caption after replace the equations and contents in the bracket
 - Img-text: texts in the figure, including labels, lengends ... etc.
 
 Within the caption content, we have three attributes:
