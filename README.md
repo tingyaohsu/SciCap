@@ -54,7 +54,7 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 Within the caption content, we have three attributes:
 
-- caption: caption after normalization
+- caption: caption after each normalization
 - sentence: sentence tokenize
 - token: word tokenize
 
