@@ -2,7 +2,7 @@
 
 #### This is the Github repo of [SCICAP: Generating Captions for Scientific Figures](https://github.com/tingyaohsu/SciCap).
 
-SCICAP a large-scale figure-caption dataset based on computer science arXiv papers published between 2010 and 2020. SCICAP contained 410k figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
+SCICAP a large-scale figure-caption dataset based on computer science arXiv papers published between 2010 and 2020. SCICAP contained **410k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
 
 ## Folder Structure
 ```
