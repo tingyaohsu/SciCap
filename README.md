@@ -1,8 +1,8 @@
-# SciCap: Scientific Figures Dataset
+# SCICAP: Scientific Figures Dataset
 
 #### This is the Github repo of [SCICAP: Generating Captions for Scientific Figures](https://github.com/tingyaohsu/SciCap).
 
-SCICAP a large-scale figure-caption dataset based on computer science arXiv papers published between 2010 and 2020. SCICAP contained more than two million figures extracted from over 290,000 papers and focused on one of the dominent figure type - graphplot . 
+SCICAP a large-scale figure-caption dataset based on computer science arXiv papers published between 2010 and 2020. SCICAP contained 410k figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
 
 ## Folder Structure
 ```
@@ -42,15 +42,15 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 ### JSON Scheme
 
 - **contains-subfigure:** boolean (check if contain subfigure)
-- **paper-ID:** the unique paper ID in arXiv dataset
-- **figure-ID:** the extracted figure ID of paper (the index is not same as the label in caption)
+- **paper-ID:** the unique paper ID in the arXiv dataset
+- **figure-ID:** the extracted figure ID of paper (the index is not the same as the label in the caption)
 - **figure-type:** the figure type
 - **0-originally-extracted:** original captions of figures
-- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and lowercase the captions   
+- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and lowercase the captions
 - **2-normalized:** 
-  - **2-1-basic-num:** caption after replace the number
-  - **2-2-advanced-euqation-bracket:** caption after replace the equations and contents in the bracket
-- **Img-text:** texts in the figure, including labels, lengends ... etc.
+  - **2-1-basic-num:** caption after replacing the number
+  - **2-2-advanced-euqation-bracket:** caption after replacing the equations and contents in the bracket
+- **Img-text:** texts in the figure, including labels, legends ... etc.
 
 Within the caption content, we have three attributes:
 
@@ -91,7 +91,7 @@ An actual JSON object from SciCap:
 ```
 
 
-<br>Correspond Figure: 1001.0025v1-Figure2-1.png
+<br>Correspond Figure: **1001.0025v1-Figure2-1.png**
 
 
 <img align="center" src="https://github.com/tingyaohsu/SciCap/blob/main/img/figure-example.png">
