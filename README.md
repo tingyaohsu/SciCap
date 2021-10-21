@@ -65,9 +65,6 @@ An actual JSON object from SciCap:
 ```
 {
   "contains-subfigure": true,
-  "paper-ID": "1001.0025v1",
-  "figure-ID": "1001.0025v1-Figure2-1.png",
-  "figure-type": "Graph Plot",
   "Img-text": [
     "(b)",
     "s]",
@@ -130,6 +127,9 @@ An actual JSON object from SciCap:
     "300",
     "0"
   ],
+  "paper-ID": "1001.0025v1",
+  "figure-ID": "1001.0025v1-Figure2-1.png",
+  "figure-type": "Graph Plot",
   "0-originally-extracted": "Figure 2: Impact of the replay attack, as a function of the spoofing attack duration. (a) Location offset or error: Distance between the attack-induced and the actual victim receiver position. (b) Time offset or error: Time difference between the attack-induced clock value and the actual time.",
   "1-lowercase-and-token-and-remove-figure-index": {
     "caption": "impact of the replay attack , as a function of the spoofing attack duration . ( a ) location offset or error : distance between the attack-induced and the actual victim receiver position . ( b ) time offset or error : time difference between the attack-induced clock value and the actual time .",
@@ -321,7 +321,6 @@ An actual JSON object from SciCap:
       ]
     }
   }
-}
 }
 ```
 
