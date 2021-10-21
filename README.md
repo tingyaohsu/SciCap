@@ -6,26 +6,26 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 ## Folder Structure
 ```
-├── SciCap-Caption-All.zip (caption JSON files for BOTH sub(280k) + non-sub(130k) images)                       	
-│   ├── SciCap-Caption-All-train.json                                       
-│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]                                 
-│   ├── SciCap-Caption-All-val.json                                
-│   └── SciCap-Caption-All-test.json           	                                          
-├── SciCap-No-Subfig-Img (image files)                    	
-│   ├── SciCap-No-Subfig-Img-Train.zip                                                                       
-│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip                               
-│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip           		                                     
-├── SciCap-Yes-Subfig-Img (image files)                       	
-│   ├── SciCap-Yes-Subfig-Img-Train.zip                                                                       
-│   ├── SciCap-Yes-Subfig-Img-Val.zip                       
-│   └── SciCap-Yes-Subfig-Img-Test.zip            		
+├── SciCap-Caption-All.zip (caption JSON files for BOTH sub(280k) + non-sub(130k) images)
+│   ├── SciCap-Caption-All-train.json
+│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]
+│   ├── SciCap-Caption-All-val.json
+│   └── SciCap-Caption-All-test.json
+├── SciCap-No-Subfig-Img (image files)
+│   ├── SciCap-No-Subfig-Img-Train.zip
+│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip
+│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip
+├── SciCap-Yes-Subfig-Img (image files)
+│   ├── SciCap-Yes-Subfig-Img-Train.zip
+│   ├── SciCap-Yes-Subfig-Img-Val.zip
+│   └── SciCap-Yes-Subfig-Img-Test.zip
 ├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
 └── List-of-Files-for-Each-Experiments (json)
     ├── Single-Sentence-Caption-file-index.json
     │	├── No-Subfig
     │   │	├── Train
     │	│ 	├── Val
-    │	│   	└── Test
+    │	│   └── Test
     │   └── Yes-Subfig
     │   	├── Train
     │	 	├── Val
