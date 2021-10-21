@@ -89,8 +89,12 @@ An actual JSON object from SciCap:
     }
   }
 ```
-Correspond Figure
-<img align="center" src="https://github.com/tingyaohsu/SciCap/blob/main/img/table_with_datasize.png" width="40%">
+
+
+<br>Correspond Figure: 1001.0025v1-Figure2-1.png
+
+
+<img align="center" src="https://github.com/tingyaohsu/SciCap/blob/main/img/figure-example.png">
 
 ## Normalized Token
 In the paper, we used *[NUM], [BRACKET], [EQUATION]*, but we decided to use *NUM-TK, BRACKET-TK, EQUAT-TK* in the final data release to avoid the extra problems caused by "[]".
