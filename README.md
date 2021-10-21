@@ -55,8 +55,8 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 Within the caption content, we have three attributes:
 
 - **caption:** caption after each normalization
-- **sentence:** sentence tokenize
-- **token:** word tokenize
+- **sentence:** a list of segmented sentences
+- **token:** a list of tokenized words
 
 ### Example JSON Object
 
