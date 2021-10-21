@@ -91,7 +91,7 @@ An actual JSON object from SciCap:
 ```
 
 
-<br>Correspond Figure: **1001.0025v1-Figure2-1.png**
+<br>Correspond Figure
 
 
 <img align="center" src="https://github.com/tingyaohsu/SciCap/blob/main/img/figure-example.png">
