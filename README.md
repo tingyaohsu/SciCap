@@ -36,6 +36,10 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 - List-of-Files-for-Each-Experiments: 
 
+## How to download
+
+You can dowload [SCICAP dataset]() here. The total file size is 24G. 
+
 
 ## JSON Data Format
 
@@ -46,7 +50,7 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 - **figure-ID:** the extracted figure ID of paper (the index is not the same as the label in the caption)
 - **figure-type:** the figure type
 - **0-originally-extracted:** original captions of figures
-- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and lowercase the captions
+- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and the captions in lowercase
 - **2-normalized:** 
   - **2-1-basic-num:** caption after replacing the number
   - **2-2-advanced-euqation-bracket:** caption after replacing the equations and contents in the bracket
@@ -60,7 +64,7 @@ Within the caption content, we have three attributes:
 
 ### Example JSON Object
 
-An actual JSON object from SciCap:
+An actual JSON object from SCICAP:
 
 ```
 {
@@ -91,7 +95,7 @@ An actual JSON object from SciCap:
 ```
 
 
-<br>Correspond Figure
+<br>Corresponding Figure: **1001.0025v1-Figure2-1.png**
 
 
 <img align="center" src="https://github.com/tingyaohsu/SciCap/blob/main/img/figure-example.png">
