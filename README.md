@@ -25,7 +25,7 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
     │	├── No-Subfig
     │   │	├── Train
     │	│ 	├── Val
-    │	│   └── Test
+    │	│     └── Test
     │   └── Yes-Subfig
     │   	├── Train
     │	 	├── Val
