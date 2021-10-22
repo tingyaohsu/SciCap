@@ -36,11 +36,14 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 - List-of-Files-for-Each-Experiments: 
 
-| Data Collection  | Subfig | Train  | Validate | Test |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| First Sentence  | Yes | xx  | xx | xx  |
-| Single-Sent Caption  | Yes | xx | xx  | xx |
-| Caption w/ <=100 words  | Yes | xx | xx  | xx |
+| Data Collection        | Subfig |  Train  | Validate |  Test  |
+|------------------------|:------:|:-------:|:--------:|:------:|
+| First Sentence         |   Yes  | 226,608 |  28,326  | 28,327 |
+|                        |   No   | 106,834 |  13,354  | 13,355 |
+| Single-Sent Caption    |   Yes  | 123,698 |  15,469  | 15,531 |
+|                        |   No   |  75,494 |   9,242  |  9,459 |
+| Caption w/ <=100 words |   Yes  | 216,392 |  27,072  | 27,036 |
+|                        |   No   | 105,687 |  13,215  | 13,226 |
 
 ## How to download
 
