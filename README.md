@@ -1,53 +1,56 @@
 # SCICAP: Scientific Figures Dataset
 
-#### This is the Github repo of [SCICAP: Generating Captions for Scientific Figures](https://github.com/tingyaohsu/SciCap).
+#### This is the Github repo of the EMNLP 2021 Findings' paper, ``[SCICAP: Generating Captions for Scientific Figures](https://crowd.ist.psu.edu/pdf/2021/2021-emnlp-SciCap.pdf)'' (Hsu et. al, 2021)
 
-SCICAP a large-scale figure-caption dataset based on computer science arXiv papers published between 2010 and 2020. SCICAP contained **410k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
+SCICAP a large-scale figure caption dataset based on Computer Science arXiv papers published between 2010 and 2020. SCICAP contained **410k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
+
+## Download the Dataset
+
+You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com/s/t1sjqesl0pynaxo/scicap_data.zip?dl=0) (18.1 GB) 
 
 ## Folder Structure
 ```
-├── SciCap-Caption-All.zip (caption JSON files for BOTH sub(280k) + non-sub(130k) images)
+scicap_data.zip
+├── SciCap-Caption-All  #caption text
 │   ├── SciCap-Caption-All-train.json
 │   │   └── [{figure-1}, {figure-2}, …, {figure-n}]
 │   ├── SciCap-Caption-All-val.json
 │   └── SciCap-Caption-All-test.json
-├── SciCap-No-Subfig-Img (image files)
+├── SciCap-No-Subfig-Img #image files for the figures without subfigures
 │   ├── SciCap-No-Subfig-Img-Train.zip
 │   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip
 │   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip
-├── SciCap-Yes-Subfig-Img (image files)
+├── SciCap-Yes-Subfig-Img #image files for the figures with subfigures
 │   ├── SciCap-Yes-Subfig-Img-Train.zip
 │   ├── SciCap-Yes-Subfig-Img-Val.zip
 │   └── SciCap-Yes-Subfig-Img-Test.zip
-├── arxiv-metadata-oai-snapshot.json (from arXiv dataset’s summary)
-└── List-of-Files-for-Each-Experiments (json)
+├── arxiv-metadata-oai-snapshot.json #arXiv paper's metadata (from arXiv dataset)
+└── List-of-Files-for-Each-Experiments #list of figures used in each experiment 
     ├── Single-Sentence-Caption-file-index.json
     │	├── No-Subfig
     │   │	├── Train
     │	│ 	├── Val
-    │   │       └── Test
+    │   │   └── Test
     │   └── Yes-Subfig
-    │   	├── Train
-    │	 	├── Val
-    │	   	└── Test
+    │		├── Train
+    │ 		├── Val
+    │		└── Test
     ├── First-Sentence-file-index.json
     └── Caption-No-More-Than-100-Tokens-file-index.json
 ```
 
-- List-of-Files-for-Each-Experiments: 
+### Number of Figures in Each Subset
 
-| Data Collection        | Subfig |  Train  | Validate |  Test  |
+| Data Collection        | Has Subfig |  Train  | Validate |  Test  |
 |------------------------|:------:|:-------:|:--------:|:------:|
 | First Sentence         |   Yes  | 226,608 |  28,326  | 28,327 |
-|                        |   No   | 106,834 |  13,354  | 13,355 |
+| First Sentence                       |   No   | 106,834 |  13,354  | 13,355 |
 | Single-Sent Caption    |   Yes  | 123,698 |  15,469  | 15,531 |
-|                        |   No   |  75,494 |   9,242  |  9,459 |
+| Single-Sent Caption                   |   No   |  75,494 |   9,242  |  9,459 |
 | Caption w/ <=100 words |   Yes  | 216,392 |  27,072  | 27,036 |
-|                        |   No   | 105,687 |  13,215  | 13,226 |
+| Caption w/ <=100 words                       |   No   | 105,687 |  13,215  | 13,226 |
 
-## How to download
 
-You can dowload [SCICAP dataset]() here. The total file size is 24G. 
 
 
 ## JSON Data Format
@@ -120,6 +123,12 @@ In the paper, we used *[NUM], [BRACKET], [EQUATION]*, but we decided to use *NUM
 
 ## How to Cite?
 ```
+@inproceedings{hsu2021scicap,
+  title={SciCap: Generating Captions for Scientific Figures},
+  author={Hsu, Ting-Yao E. and Giles, C. Lee and Huang, Ting-Hao K.},
+  booktitle={Findings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021 Findings)},
+  year={2021}
+}
 ```
 
 ## Baseline Performance
