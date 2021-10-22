@@ -36,6 +36,12 @@ SCICAP a large-scale figure-caption dataset based on computer science arXiv pape
 
 - List-of-Files-for-Each-Experiments: 
 
+| Data Collection  | Subfig | Train  | Validate | Test |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| First Sentence  | Yes | xx  | xx | xx  |
+| Single-Sent Caption  | Yes | xx | xx  | xx |
+| Caption w/ <=100 words  | Yes | xx | xx  | xx |
+
 ## How to download
 
 You can dowload [SCICAP dataset]() here. The total file size is 24G. 
