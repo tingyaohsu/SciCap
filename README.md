@@ -4,6 +4,16 @@
 
 SCICAP a large-scale figure caption dataset based on Computer Science arXiv papers published between 2010 and 2020. SCICAP contained **410k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
 
+## How to Cite?
+```
+@inproceedings{hsu2021scicap,
+  title={SciCap: Generating Captions for Scientific Figures},
+  author={Hsu, Ting-Yao E. and Giles, C. Lee and Huang, Ting-Hao K.},
+  booktitle={Findings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021 Findings)},
+  year={2021}
+}
+```
+
 ## Download the Dataset
 
 You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com/s/t1sjqesl0pynaxo/scicap_data.zip?dl=0) (18.15 GB) 
@@ -117,15 +127,7 @@ In the paper, we used *[NUM], [BRACKET], [EQUATION]*, but we decided to use *NUM
 | BRACKET-TK  | Text spans enclosed by any types of bracket pairs, including {}, [], and ().  |
 | EQUAT-TK  | Math equations identified using regular expressions. |
 
-## How to Cite?
-```
-@inproceedings{hsu2021scicap,
-  title={SciCap: Generating Captions for Scientific Figures},
-  author={Hsu, Ting-Yao E. and Giles, C. Lee and Huang, Ting-Hao K.},
-  booktitle={Findings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021 Findings)},
-  year={2021}
-}
-```
+
 
 ## Baseline Performance
 
