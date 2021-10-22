@@ -61,25 +61,6 @@ scicap_data.zip
 
 ## JSON Data Format
 
-### JSON Scheme
-
-- **contains-subfigure:** boolean (check if contain subfigure)
-- **paper-ID:** the unique paper ID in the arXiv dataset
-- **figure-ID:** the extracted figure ID of paper (the index is not the same as the label in the caption)
-- **figure-type:** the figure type
-- **0-originally-extracted:** original captions of figures
-- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and the captions in lowercase
-- **2-normalized:** 
-  - **2-1-basic-num:** caption after replacing the number
-  - **2-2-advanced-euqation-bracket:** caption after replacing the equations and contents in the bracket
-- **Img-text:** texts extracted from the figure, such as the texts for labels, legends ... etc.
-
-Within the caption content, we have three attributes:
-
-- **caption:** caption after each normalization
-- **sentence:** a list of segmented sentences
-- **token:** a list of tokenized words
-
 ### Example Data Instance (Caption and Figure)
 
 An actual JSON object from SCICAP:
@@ -118,7 +99,27 @@ An actual JSON object from SCICAP:
 
 <img align="center" src="https://github.com/tingyaohsu/SciCap/blob/main/img/figure-example.png">
 
-## Normalized Token
+### JSON Scheme
+
+- **contains-subfigure:** boolean (check if contain subfigure)
+- **paper-ID:** the unique paper ID in the arXiv dataset
+- **figure-ID:** the extracted figure ID of paper (the index is not the same as the label in the caption)
+- **figure-type:** the figure type
+- **0-originally-extracted:** original captions of figures
+- **1-lowercase-and-token-and-remove-figure-index:** Removed figure index and the captions in lowercase
+- **2-normalized:** 
+  - **2-1-basic-num:** caption after replacing the number
+  - **2-2-advanced-euqation-bracket:** caption after replacing the equations and contents in the bracket
+- **Img-text:** texts extracted from the figure, such as the texts for labels, legends ... etc.
+
+Within the caption content, we have three attributes:
+
+- **caption:** caption after each normalization
+- **sentence:** a list of segmented sentences
+- **token:** a list of tokenized words
+
+
+### Normalized Token
 In the paper, we used *[NUM], [BRACKET], [EQUATION]*, but we decided to use *NUM-TK, BRACKET-TK, EQUAT-TK* in the final data release to avoid the extra problems caused by "[]".
 
 | Token  | Description |
