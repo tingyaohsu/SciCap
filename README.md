@@ -50,9 +50,6 @@ scicap_data.zip
 | Caption w/ <=100 words |   Yes  | 216,392 |  27,072  | 27,036 |
 | Caption w/ <=100 words                       |   No   | 105,687 |  13,215  | 13,226 |
 
-
-
-
 ## JSON Data Format
 
 ### JSON Scheme
@@ -66,7 +63,7 @@ scicap_data.zip
 - **2-normalized:** 
   - **2-1-basic-num:** caption after replacing the number
   - **2-2-advanced-euqation-bracket:** caption after replacing the equations and contents in the bracket
-- **Img-text:** texts in the figure, including labels, legends ... etc.
+- **Img-text:** texts extracted from the figure, such as the texts for labels, legends ... etc.
 
 Within the caption content, we have three attributes:
 
