@@ -6,27 +6,26 @@ SCICAP a large-scale figure caption dataset based on Computer Science arXiv pape
 
 ## Download the Dataset
 
-You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com/s/t1sjqesl0pynaxo/scicap_data.zip?dl=0) (18.1 GB) 
+You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com/s/t1sjqesl0pynaxo/scicap_data.zip?dl=0) (18.15 GB) 
 
 ## Folder Structure
 ```
 scicap_data.zip
-├── SciCap-Caption-All  #caption text
-│   ├── SciCap-Caption-All-train.json
-│   │   └── [{figure-1}, {figure-2}, …, {figure-n}]
-│   ├── SciCap-Caption-All-val.json
-│   └── SciCap-Caption-All-test.json
-├── SciCap-No-Subfig-Img #image files for the figures without subfigures
-│   ├── SciCap-No-Subfig-Img-Train.zip
-│   ├── SciCap-No-Subfig-Img-Val-No-Subfig.zip
-│   └── SciCap-No-Subfig-Img-Test-No-Subfig.zip
-├── SciCap-Yes-Subfig-Img #image files for the figures with subfigures
-│   ├── SciCap-Yes-Subfig-Img-Train.zip
-│   ├── SciCap-Yes-Subfig-Img-Val.zip
-│   └── SciCap-Yes-Subfig-Img-Test.zip
-├── arxiv-metadata-oai-snapshot.json #arXiv paper's metadata (from arXiv dataset)
-└── List-of-Files-for-Each-Experiments #list of figures used in each experiment 
-    ├── Single-Sentence-Caption-file-index.json
+├── SciCap-Caption-All                  #caption text for all figures
+│	├── Train
+│ 	├── Val
+│   └── Test
+├── SciCap-No-Subfig-Img                #image files for the figures without subfigures
+│	├── Train
+│ 	├── Val
+│   └── Test
+├── SciCap-Yes-Subfig-Img               #image files for the figures with subfigures
+│	├── Train
+│ 	├── Val
+│   └── Test
+├── arxiv-metadata-oai-snapshot.json    #arXiv paper's metadata (from arXiv dataset)
+└── List-of-Files-for-Each-Experiments  #list of figure names used in each experiment 
+    ├── Single-Sentence-Caption
     │	├── No-Subfig
     │   │	├── Train
     │	│ 	├── Val
@@ -35,8 +34,8 @@ scicap_data.zip
     │		├── Train
     │ 		├── Val
     │		└── Test
-    ├── First-Sentence-file-index.json
-    └── Caption-No-More-Than-100-Tokens-file-index.json
+    ├── First-Sentence                  #Same as in Single-Sentence-Caption
+    └── Caption-No-More-Than-100-Tokens #Same as in Single-Sentence-Caption
 ```
 
 ### Number of Figures in Each Subset
