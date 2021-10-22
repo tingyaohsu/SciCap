@@ -1,6 +1,6 @@
 # SCICAP: Scientific Figures Dataset
 
-#### This is the Github repo of the EMNLP 2021 Findings' paper, ``[SCICAP: Generating Captions for Scientific Figures](https://crowd.ist.psu.edu/pdf/2021/2021-emnlp-SciCap.pdf)'' (Hsu et. al, 2021)
+#### This is the Github repo of the EMNLP 2021 Findings' paper, [SCICAP: Generating Captions for Scientific Figures](https://crowd.ist.psu.edu/pdf/2021/2021-emnlp-SciCap.pdf) (Hsu et. al, 2021)
 
 SCICAP a large-scale figure caption dataset based on Computer Science arXiv papers published between 2010 and 2020. SCICAP contained **410k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
 
