@@ -16,7 +16,7 @@ SCICAP a large-scale figure caption dataset based on Computer Science arXiv pape
 
 ## Download the Dataset
 
-You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com/s/t1sjqesl0pynaxo/scicap_data.zip?dl=0) (18.15 GB) 
+#### You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com/s/t1sjqesl0pynaxo/scicap_data.zip?dl=0) (18.15 GB) ####
 
 ## Folder Structure
 ```
