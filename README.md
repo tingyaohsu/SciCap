@@ -11,37 +11,36 @@ You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com
 ## Folder Structure
 ```
 scicap_data.zip
-│
 ├── SciCap-Caption-All                  #caption text for all figures
 │	├── Train
-│ 	├── Val
-│   └── Test
+│	├── Val
+│	└── Test
 ├── SciCap-No-Subfig-Img                #image files for the figures without subfigures
 │	├── Train
-│ 	├── Val
-│   └── Test
+│	├── Val
+│	└── Test
 ├── SciCap-Yes-Subfig-Img               #image files for the figures with subfigures
 │	├── Train
-│ 	├── Val
-│   └── Test
+│	├── Val
+│	└── Test
 ├── arxiv-metadata-oai-snapshot.json    #arXiv paper's metadata (from arXiv dataset)
 └── List-of-Files-for-Each-Experiments  #list of figure names used in each experiment 
     ├── Single-Sentence-Caption
-    │	├── No-Subfig
-    │   │	├── Train
-    │	│ 	├── Val
-    │   │   └── Test
-    │   └── Yes-Subfig
-    │		├── Train
-    │ 		├── Val
-    │		└── Test
+    │   ├── No-Subfig
+    │   │   ├── Train
+    │	│   ├── Val
+    │	│   └── Test
+    │	└── Yes-Subfig
+    │       ├── Train
+    │       ├── Val
+    │       └── Test
     ├── First-Sentence                  #Same as in Single-Sentence-Caption
     └── Caption-No-More-Than-100-Tokens #Same as in Single-Sentence-Caption
 ```
 
 ### Number of Figures in Each Subset
 
-| Data Collection        | Has Subfig |  Train  | Validate |  Test  |
+| Data Collection        | Does the figure have subfigures? |  Train  | Validate |  Test  |
 |------------------------|:------:|:-------:|:--------:|:------:|
 | First Sentence         |   Yes  | 226,608 |  28,326  | 28,327 |
 | First Sentence                       |   No   | 106,834 |  13,354  | 13,355 |
@@ -71,7 +70,7 @@ Within the caption content, we have three attributes:
 - **sentence:** a list of segmented sentences
 - **token:** a list of tokenized words
 
-### Example JSON Object
+### Example Data Instance (Caption and Figure)
 
 An actual JSON object from SCICAP:
 
