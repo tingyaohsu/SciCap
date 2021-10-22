@@ -11,6 +11,7 @@ You can dowload the SCICAP dataset here: [Download Link](https://www.dropbox.com
 ## Folder Structure
 ```
 scicap_data.zip
+│
 ├── SciCap-Caption-All                  #caption text for all figures
 │	├── Train
 │ 	├── Val
