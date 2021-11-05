@@ -1,18 +1,27 @@
-# SCICAP: Scientific Figures Dataset
+# SciCap: Scientific Figures Dataset
 
-#### This is the Github repo of the EMNLP 2021 Findings' paper, [SCICAP: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624) (Hsu et. al, 2021)
+#### This is the Github repo of the EMNLP 2021 Findings' paper, [SciCap: Generating Captions for Scientific Figures](https://aclanthology.org/2021.findings-emnlp.277/).
 
-SCICAP a large-scale figure caption dataset based on Computer Science arXiv papers published between 2010 and 2020. SCICAP contained over **416k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. 
+SciCap a large-scale figure caption dataset based on Computer Science arXiv papers published between 2010 and 2020. SCICAP contained over **416k** figures that focused on one of the dominent figure type - **graphplot**, extracted from over 290,000 papers. This dataset aims to allow researchers to study how to use computational models to analyze and caption scientific figures at scale.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+SciCap is only for non-commercial use, and is released under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. By using SciCap, you agree to the terms in the license.
+
 
 ## How to Cite?
 ```
-@inproceedings{hsu2021scicap,
-  title={SciCap: Generating Captions for Scientific Figures},
-  author={Hsu, Ting-Yao E. and Giles, C. Lee and Huang, Ting-Hao K.},
-  booktitle={Findings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021 Findings)},
-  year={2021}
+@inproceedings{hsu-etal-2021-scicap-generating,
+    title = "{S}ci{C}ap: Generating Captions for Scientific Figures",
+    author = "Hsu, Ting-Yao  and
+      Giles, C Lee  and
+      Huang, Ting-Hao",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.277",
+    pages = "3258--3264",
+    abstract = "Researchers use figures to communicate rich, complex information in scientific papers. The captions of these figures are critical to conveying effective messages. However, low-quality figure captions commonly occur in scientific articles and may decrease understanding. In this paper, we propose an end-to-end neural framework to automatically generate informative, high-quality captions for scientific figures. To this end, we introduce SCICAP, a large-scale figure-caption dataset based on computer science arXiv papers published between 2010 and 2020. After pre-processing {--} including figure-type classification, sub-figure identification, text normalization, and caption text selection {--} SCICAP contained more than two million figures extracted from over 290,000 papers. We then established baseline models that caption graph plots, the dominant (19.2{\%}) figure type. The experimental results showed both opportunities and steep challenges of generating captions for scientific figures.",
 }
 ```
 
@@ -139,12 +148,14 @@ To examine the feasibility and challenges of creating an image-captioning model 
 <img align="left" src="https://github.com/tingyaohsu/SciCap/blob/main/img/table_with_img%2Btxt.png" width="40%">
 <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p>
 
-## Data License
+## License
   
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+  
+SciCap is only for non-commercial use, and is released under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. By using SciCap, you agree to the terms in the license.
 
 This dataset uses data in the [arXiv dataset](https://www.kaggle.com/Cornell-University/arxiv).
-The [arXiv dataset](https://www.kaggle.com/Cornell-University/arxiv) uses the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license](https://creativecommons.org/publicdomain/zero/1.0/), which grants permission to remix, remake, annotate, and publish the data.
+The [arXiv dataset](https://www.kaggle.com/Cornell-University/arxiv) uses the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license](https://creativecommons.org/publicdomain/zero/1.0/) for the metadata, which grants permission to remix, remake, annotate, and publish the metadata.
 
 ## Acknowledgements
 We thank Chieh-Yang Huang, Hua Shen, and Chacha Chen for helping with the data annotation. We thank Chieh-Yang Huang for the feedback and strong technical support. We also thank the anonymous reviewers for their constructive feedback. This research was partially supported by the Seed Grant (2020) from the College of Information Sciences and Technology (IST), Pennsylvania State University.
